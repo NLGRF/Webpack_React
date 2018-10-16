@@ -4,7 +4,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: resolve(__dirname, 'dist'),
-  },module: {
+  },
+  module: {
     rules: [
       {
         test: /\.js$/,
